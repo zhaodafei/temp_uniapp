@@ -4,6 +4,10 @@ uni-app项目,一套代码集合了h5,微信小程序,Android版,iOS版等跨平
 ### 环境说明
 
 ```html
+依赖安装后需要在src目录下面创建wxcomponents/vant,
+然后把node_modules@vant/weapp/dist 下面文件拷贝到 src/wxcomponents/vant/ 下面
+
+***************************************************************
 vue-cli 版本 @vue/cli 4.5.15
 vue 2.6.11
 node 14.18.0
@@ -12,6 +16,20 @@ node 14.18.0
 
 -- 2022年8月29日 , ***温馨提示***
 vant 这个ui目前支持在Vue2这个版本中使用在微信中,不支持Vue3引入微信中,在分uniapp_vue3中各种奇怪的问题
+
+src 下面基本目录结构
+├─pages
+│  └─index
+├─static
+│  └─img
+│      ├─avatar
+│      ├─extra
+│      └─icon
+└─wxcomponents
+    └─vant
+        ├─button
+        ├─switch
+
 ```
 
 
