@@ -2,10 +2,14 @@
 	<view class="content">
 		<image class="logo" src="/static/logo.png"></image>
 		<view>
-			<text class="title">{{title}}</text>
+			<text class="title">{{title}} sss</text>
 		</view>
     <view>
       <text class="title"> 启动遇到报错,就是你的版本有问题,或者少依赖 </text>
+    </view>
+    <view>
+      <van-button type="primary">主要按钮</van-button>
+      <van-switch active-color="#07c160" inactive-color="#ee0a24" />
     </view>
 	</view>
 </template>

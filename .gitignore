@@ -2,6 +2,9 @@
 node_modules/
 unpackage/
 dist/
+#拉取项目后把 node_modules@vant/weapp/dist 拷贝到 src/wxcomponents/vant
+#这样才可以在微信小程序中运行
+src/wxcomponents/vant
 
 # local env files
 .env.local
