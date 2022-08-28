@@ -37,7 +37,8 @@
         <text class="link" @tap="toRecommendPage">查看更多</text>
       </view>
       <view>
-        <text>sssssss</text>
+        <text>Vue3风格微信小程序中放弃使用vant</text>
+        <van-button type="primary">主要按钮</van-button>
       </view>
 
       <!--<view class="hot-content">

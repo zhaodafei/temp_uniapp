@@ -16,6 +16,6 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src')
     },
     // https://cn.vitejs.dev/config/#resolve-extensions
-    extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.vue']
+    // extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.vue']
   },
 })
